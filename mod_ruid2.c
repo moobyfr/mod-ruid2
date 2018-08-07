@@ -54,10 +54,10 @@
 #define MODULE_NAME		"mod_ruid2"
 #define MODULE_VERSION		"0.9.8"
 
-#define RUID_MIN_UID		100
-#define RUID_MIN_GID		100
+#define RUID_MIN_UID		1000
+#define RUID_MIN_GID		1000
 
-#define RUID_MAXGROUPS		8
+#define RUID_MAXGROUPS		64
 
 #define RUID_MODE_UNDEFINED	0
 #define RUID_MODE_CONF		1
